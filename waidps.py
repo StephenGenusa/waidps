@@ -14969,6 +14969,8 @@ def KillAllMonitor():
     KillProc(Search)
     Search="WAIDPS - Monitoring"
     KillProc(Search)
+    Search="WAIDPS - Monitoring SSID/Clients (as superuser)"
+    KillProc(Search)
     Search="WAIDPS - Monitoring SSID/Clients"
     KillProc(Search)
     Search="WAIDPS - Monitoring WPS"
